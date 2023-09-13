@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-import jwt from "jsonwebtoken";
 
 
 function login() {
@@ -116,7 +115,7 @@ function login() {
                     className="hover:cursor-pointer"
                     onClick={() => settoggle(!toggle)}
                   >
-                    {toggle ? "👀" : "❌"}
+                    {toggle ? "❌" : "👀"}
                   </span>
                 </label>
                 <input
