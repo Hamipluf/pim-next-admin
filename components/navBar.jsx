@@ -1,6 +1,13 @@
 import React from "react";
+import axios from "axios";
 
 function NavBar() {
+  // const handleLogout = () => {
+  //   axios
+  //     .post("/api/logout")
+  //     .then((res) => console.log(res))
+  //     .catch((err) => console.log(err));
+  // };
   return (
     <>
       <div className="navbar p-4 bg-lightpim w-full">
@@ -10,21 +17,30 @@ function NavBar() {
           </a>
         </div>
         <div className="flex-none">
-          <button className="btn btn-square btn-ghost">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              className="inline-block w-5 h-5 stroke-current"
+          <div className="dropdown dropdown-end">
+            <label tabIndex={0} className="btn m-1">
+              {/* hamburger icon */}
+              <svg
+                className="swap-off fill-current"
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                viewBox="0 0 512 512"
+              >
+                <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
+              </svg>
+            </label>
+            <ul
+              tabIndex={0}
+              className="dropdown-content z-[1] menu p-2 shadow bg-error rounded-box "
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"
-              ></path>
-            </svg>
-          </button>
+              <li
+              //  onClick={() => handleLogout()}
+              >
+                <p className=" m-auto font-semibold">Salir</p>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </>
