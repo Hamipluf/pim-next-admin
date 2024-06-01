@@ -1,34 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# pim-next-admin
 
-## Getting Started
+Este repositorio contiene un proyecto de dashboard de administración desarrollado con Next.js. El sistema permite la gestión de datos de profesionales, incluyendo autenticación, almacenamiento y organización de información, con funcionalidades avanzadas de búsqueda y filtrado.
 
-First, run the development server:
+## 💻 Tecnologías Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- **Tecnologías principales**: 
+  - Next.js: Framework principal para el desarrollo de la aplicación
+  - Tailwind CSS: Para el diseño y estilos.
+  - PostgreSQL: Base de datos relacional para almacenamiento.
+  - JWT (JSON Web Tokens): Implementación de autenticación segura.
+  - ESLint: Herramienta para mantener la calidad del código.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Características Principales**:
+  - Autenticación: Utiliza JWT para manejar la autenticación y autorización de usuarios.
+  - Gestión de Profesionales: Permite agregar, editar y eliminar datos de profesionales.
+  - Búsqueda y Filtrado: Funcionalidades avanzadas para buscar y filtrar datos de manera eficiente.
+  - Interfaz Intuitiva: Diseño responsivo y fácil de usar gracias a Tailwind CSS.
+  - Estructura Modular: Componentes reutilizables y una estructura de proyecto bien organizada.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 🛠️ Instalación y Uso
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. **Clonar el repositorio**
+   ```bash
+    git clone https://github.com/Hamipluf/pim-next-admin.git
+    cd pim-next-admin
+2. **Insalar Dependencias**
+   ```bash
+    npm install
+3. **Configurar la base de datos**
+    -  Asegúrate de tener PostgreSQL instalado y configurado.
+5. **Configurar variables de entorno**
+    -  Crea un archivo .env con las variables necesarias (ver .env.example)
+5. **Inicializar entorno**
+6. - Desarrollo
+        ```bash
+            npm run dev
+7. - Iniciar la aplicación en modo producción
+        ```bash
+            npm start
+ ## 🎯 Objetivos del Proyecto
+ - Demostrar Habilidades Técnicas: Mostrar competencia en Next.js, Tailwind CSS y PostgreSQL.
+ - Solución Práctica: Proveer una herramienta útil para la organización y gestión de datos de profesionales.
+ -Código de Calidad: Mantener un código limpio y bien documentado, siguiendo las mejores prácticas.
 
-## Learn More
+## 📬 Contacto
+Si te interesa mi trabajo y quieres saber más, ¡no dudes en contactarme!
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Email: ramirogumma@hotmail.com
+LinkedIn: https://www.linkedin.com/in/ramirogumma-fullstackdev/
+ 
+- ¡Gracias por visitar mi repositorio! Espero que encuentres el proyecto interesante y útil.
